@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio HTML - Incode Tech School</title>
+</head>
+<body>
+    <header>
+        <h1>Bem vindo a nossa loja!</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#profissionais">Profissionais</a></li>
+                <li><a href="#formulario">Formulário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="services">
+            <h2>Seção 1: Serviços</h2>
+            <p>Abaixo está uma lista de alguns serviços que oferecemos:</p>
+            <ul>
+                <li>Serviços A</li>
+                <li>Serviços B</li>
+                <li>Serviços C</li>
+            </ul>
+        </section>
+
+        <section id="profissionais">
+            <h2>Seção 2: Profissionais</h2>
+            <p>Conheça um pouco da nossa equipe super qualificada:</p>
+            <ol>
+                <li>Profissional 1</li>
+                <li>Profissional 2</li>
+                <li>Profissional 3</li>
+            </ol>
+        </section>
+
+        <aside>
+            <h3>Redes Sociais</h3>
+            <p>Nos acompanhe também em nossas redes sociais e fique por dentro de tudo:</p>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </aside>
+
+        <section id="formulario">
+            <h2>Formulário de Contato</h2>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <fieldset>
+                    <legend>Gênero:</legend>
+                    <label>
+                        <input type="radio" name="genero" value="masculino"> Masculino <br>
+                    </label>
+                    <label>
+                        <input type="radio" name="genero" value="feminino"> Feminino
+                    </label>
+                    
+                </fieldset> 
+                    
+                <label for="newsletter">Deseja receber nossa newsletter?</label>
+                <input type="checkbox" id="newsletter" name="newsletter"> <br>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required> <br>
+
+                <label for="estado">Selecione seu estado:</label>
+                <select id="estado" name="estado">
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="ma">Maranhão</option>
+                </select>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Marcelo Ricardo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
